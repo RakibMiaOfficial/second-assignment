@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navs styles start from here */
+.header {
+    width: 1920px;
+    height: 1422px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_title h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-right: 240px;
+    color: #131313;
+
+}
+
+.items {
+    display: flex;
+    list-style: none;
+    margin-top: 63px;
+}
+
+.item {
+    margin-left: 100px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner_container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 205px;
+}
+
+.banner_details {
+    height: 205px;
+}
+
+.banner_title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner_text {
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 32px 0;
+}
+
+.btn_primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn_primary:hover {
+    color: #FF900E;
+    ;
+    background-color: whitesmoke;
+}
+
+.banner_img {
+    margin-top: 205px;
+}
+
+/* feature container start from here */
+.feature_container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+}
+
+.teams {
+    margin: 85px 0 0 85px;
+}
+
+.team_one {
+    display: flex;
+}
+
+.team_two {
+    display: flex;
+}
+
+.team {
+    padding: 24px;
+}
+
+.features {
+    margin: 287px 335px 0 0;
+    width: 537px;
+    height: 304px;
+}
+
+.feature_title {
+    width: 468px;
+    height: 106px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.our {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
