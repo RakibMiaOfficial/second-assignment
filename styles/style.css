@@ -94,7 +94,7 @@
     justify-content: center;
     justify-content: space-around;
     width: 100%;
-    height: 60vh;
+    height: 100vh;
 }
 
 .teams {
@@ -142,4 +142,85 @@
     font-weight: 700;
     font-size: 45px;
     color: #FF900E;
+}
+
+/* features love section start now */
+
+.features_love {
+    margin-top: 130px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1059px;
+}
+
+.love_title {
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.love_description {
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.box_text {
+    padding: 30px 42px 30px 30px;
+    margin-top: 20px;
+    width: 514px;
+    height: 111px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.box_title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.box_description {
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.architect {
+    width: 708px;
+    height: 982px;
+    padding-left: 92px;
+    margin-top: -100px;
+    margin-left: 54px;
+    border-radius: 8px;
+}
+
+.end_btn {
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 65px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    left: 54px;
+    bottom: 90px;
+}
+
+.btn_ex {
+    font-weight: 500;
+    font-size: 25px;
 }
