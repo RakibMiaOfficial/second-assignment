@@ -266,15 +266,18 @@
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
-
+.achive:hover{
+    transform: rotate(30deg);
+}
 .img_num {
     margin-top: 60px;
 }
+
 /* extra section added */
 
 .project_title{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
